@@ -1,0 +1,91 @@
+*{
+background-color: azure;
+margin:0;
+}
+.nav-bar{
+    height:50px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.nav-left{
+    background-color: blue;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-items{
+    margin-top:10px;
+    display:block;
+    position:fixed;
+    height:150px;
+    background-color:gray;
+    font-size:20px;
+    margin-left:5px;
+    
+}
+.left-item{
+    width:70px;
+    display:flex;
+    margin-bottom:4px;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+    border-radius:2px;
+}
+.search-bar{
+    background-color: beige;
+    
+    display: flex;
+    width:100%;
+    
+    justify-content: center;
+    align-items: center;
+    font-size:20px;
+    
+}
+.search{
+
+width:100%;
+}
+
+.container{
+    
+    display:flex;
+    background-color: blue;
+    margin-left:100px;
+    margin-top: 20px;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    border:solid 3px red;
+    height:300px;
+    width:200px;
+}
+.price{
+     display:flex;
+    margin-right: 2px;
+    justify-content:left;
+    font-size:16px;
+    margin-top:4px;
+    color:rgb(5, 5, 5);
+    
+}
+.flower-name{
+    font-size:12px;
+}
+.main-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border:2px solid green;
+}
+
+.recent-events{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+    text-transform: uppercase;
+    color:rgb(4, 38, 58);
+}
